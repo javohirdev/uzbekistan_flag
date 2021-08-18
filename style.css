@@ -1,0 +1,76 @@
+/**FONTS**/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body{
+    background-color: #000000;
+}
+
+@keyframes anim{
+    50%{
+        text-shadow: none;
+    }
+    100%{
+        text-shadow: 0 0 8px rgb(22, 160, 214);
+    }
+}
+
+.flagName{
+    text-align: center;
+    text-transform: uppercase;
+    animation: anim 0.7s ease infinite;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+
+.Uzbekistan {
+    position: absolute;
+    cursor: pointer;
+    width: 50rem;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 25rem; 
+    height: 25rem;
+    box-shadow:
+       5px 5px 20px 0,
+       inset 0 9rem 0 #0099B5,
+       inset 0 9.5rem 0 red,
+      inset 0 17.5rem 0 white,
+      inset 0 18rem 0 red,
+      inset 0 26rem 0 #1EB53A;
+    padding: 0.5rem 4rem;
+}
+  
+.Uzbekistan:before {
+    content: " ";
+    width: 7rem;
+    height: 7rem; 
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 
+      inset 0.8rem 0 0.1rem white;
+}
+  
+.Uzbekistan:after {
+    content: "\2605";
+    position: absolute;
+    color: white;
+    font-size: 1.8rem;
+    line-height: 100%;
+    top: 5.9rem;
+    left: 9rem;
+    text-shadow:
+      2.5rem 0 0,
+      5rem 0 0, 
+      7.5rem 0 0, 
+      10rem 0 0,
+      2.5rem -2.8rem 0,
+      5rem -2.8rem 0,
+      7.5rem -2.8rem 0,
+      10rem -2.8rem 0,
+      5rem -5.6rem 0,
+      7.5rem -5.6rem 0,
+      10rem -5.6rem 0;
+}
